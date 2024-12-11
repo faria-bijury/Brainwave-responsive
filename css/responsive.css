@@ -1,0 +1,1112 @@
+
+/* 
+  ##Device = Most of the Samsung fold Mobiles (Portrait)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px) {
+  
+   /* CSS starts */
+
+.header .navbar-toggler{
+	border: 1px solid #473BF0;
+	border-radius: 3px;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 2px #473BF0;
+    background: #473BF0;
+}
+.header .navbar-toggler:focus .fa{
+	color: #fff;
+}
+.header .navbar-toggler .fa {
+    color: #473BF0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+/*************************************
+ 		** Header menu code**
+ **************************************/
+  
+.header .navbar .navbar-nav .nav-item .nav-link {
+	margin: 0px
+}
+.header .navbar-nav .nav-item .btn-info{
+	margin: 10px 0px 0px;
+}
+/*************************************
+        ** Banner code**
+ **************************************/
+.banner{
+    padding: 20px 0px 0px;
+  
+}
+.banner-inner{
+    padding: 10px 0px 30px 0px;
+
+}
+.banner-inner h1 {
+    width: 100%;
+    font-size: 26px;
+    line-height: 1.3em;
+    margin: 0px 0px 5px 0px;
+}
+.banner-inner p {
+    width: 100%;
+    margin: 0px 0px 5px 0px;
+    font-size: 11px;
+}
+.banner-inner .btn-info {
+    font-size: 13px;
+    padding: 8px 20px;
+    margin: 5px 0px 5px 0px;
+}
+.banner-inner .link{
+    margin: 05px 0px 0px;
+    font-size: 11px;
+}
+/*************************************
+        ** Alert code**
+ **************************************/
+.alert {
+    padding: 15px 0px;
+}
+.alert p {
+    font-size: 11px;
+}
+/*************************************
+        ** Expert code**
+ **************************************/
+.expert {
+   padding: 30px 0px;
+   margin: 10px 0px 0px;
+}
+.expert .expert-inner {
+    padding: 0px 0px 30px;
+}
+.expert .expert-inner h2 {
+    font-size: 24px;
+    margin: 0px 0px 05px 0px;
+}
+.expert .expert-inner p {
+    width: 100%;
+    font-size: 11px;
+    margin: 0px 0px 05px 0px;
+}
+.expert .expert-inner .btn-info {
+    padding: 8px 13px;
+    margin: 5px 0px 0px 0px;
+    font-size: 11px;
+}
+.expert .img-fluid {
+    margin: 0px;
+    width: 100%;
+}
+.expert .expert-right {
+    margin: 10px 0px 0px 0px;
+}
+.expert .expert-right h2 {
+    font-size: 24px;
+    margin: 10px 0px 10px;
+}
+.expert .expert-right p {
+    width: 100%;
+    font-size: 11px;
+    margin: 5px 0px;
+}
+/*************************************
+        ** Service code**
+ **************************************/
+.service{
+    padding: 20px 0px;
+}
+.service .title {
+    padding: 0px 0px 20px;
+}
+.service .title h1 {
+    font-size: 25px;
+}
+.service .title p {
+    width: 100%;
+    font-size: 11px;
+    margin: 0px auto;
+}
+.service .service-box {
+    width: 100%;
+    margin: 5px 0px 5px;
+}
+.service .service-box h4 {
+    font-size: 16px;
+    margin: 0px 0px 5px;
+}
+.service .service-box .img-fluid {
+    margin: 10px 0px 10px;
+}
+.service .service-box p {
+    width: 100%;
+    font-size: 11px;
+    margin: 0px 0px 5px;
+}
+.service .service-box .btn-link {
+    font-size: 15px;
+    margin: 0px 0px 10px 0px;
+}
+/*************************************
+        ** Reason code**
+ **************************************/
+.reason {
+    padding: 30px 0px;
+    margin: 0px 0px;
+}
+.reason-inner {
+    padding: 15px 0px 15px;
+}
+.reason-inner h2 {
+    width: 100%;
+    font-size: 22px;
+}
+.reason .reason-inner p {
+    width: 100%;
+    font-size: 11px;
+    margin: 0px 0px 0px;
+}
+.reason p {
+    font-size: 11px;
+    margin: 0px 0px 5px;
+}
+/*************************************
+        ** Video code**
+ **************************************/
+.video {
+    padding: 20px 0px;
+}
+.video-inner {
+    padding: 10px 0px;
+}
+.video-inner .play-btn{
+    margin: 0px 0px 10px;
+    font-size: 17px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+.video-inner h1 {
+    font-size: 24px;
+    margin: 0px 0px 10px;
+}
+.video-inner p {
+    width: 100%;
+    font-size: 11px;
+}
+/*************************************
+        ** testimonial code**
+ **************************************/
+.testimonial {
+    padding: 25px 0px;
+}
+.testimonial .title {
+    padding: 0px 0px 15px;
+}
+.testimonial .title h1 {
+    font-size: 25px;
+    margin: 0px 0px 5px;
+}
+.testimonial .title p {
+    width: 100%;
+    font-size: 11px;
+    margin: 5px auto 0px;
+}
+.client-box {
+    padding: 20px;
+    margin: 05px 0px;
+}
+.client-box .img-client {
+    margin: 0px 0px 10px;
+}
+.client-box p {
+    padding: 0px 10px 0px 0px;
+    margin: 5px 0px 0px;
+    font-size: 11px;
+}
+.client-box p .name {
+    font-size: 11px;
+}
+.client-box p .info {
+    font-size: 11px;
+}
+/*************************************
+        ** quote code**
+ **************************************/
+.quote {
+    padding: 10px 0px;
+}
+.quote-inner {
+    padding: 5px 0px;
+}
+.quote-inner h1 {
+    font-size: 25px;
+    margin: 0px 0px;
+    text-align: center;
+}
+.quote .txt-center{
+    text-align: center;
+}
+.quote-inner .btn-info {
+    padding: 8px 11px;
+    margin: 0px 0px 0px 0px;
+    font-size: 11px;
+ }
+/*************************************
+        ** footer code**
+ **************************************/
+.footer {
+    padding: 20px 0px;
+}
+.footer-inner {
+    display: block;
+    padding: 10px;
+    margin: 0px 05px 0px;
+}
+.footer p {
+    width: 100%;
+    font-size: 11px;
+    margin: 10px 0px;
+}
+.footer h6 {
+    font-size: 11px;
+    margin: 20px 0px 15px 30px;
+}
+.footer .list li {
+    margin: 5px 0px 0px 0px;
+}
+.footer .list li a {
+    font-size: 11px;
+}
+  /* CSS ends */
+  
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS starts */
+.header .navbar-toggler{
+	border: 1px solid #473BF0;
+	border-radius: 3px;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 2px #473BF0;
+    background: #473BF0;
+}
+.header .navbar-toggler:focus .fa{
+	color: #fff;
+}
+.header .navbar-toggler .fa {
+    color: #473BF0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+/*************************************
+ 		** Header menu code**
+ **************************************/
+  
+.header .navbar .navbar-nav .nav-item .nav-link {
+	margin: 0px
+}
+.header .navbar-nav .nav-item .btn-info{
+	margin: 10px 0px 0px;
+}
+/*************************************
+ 		** Banner code**
+ **************************************/
+.banner{
+	padding: 35px 0px 0px;
+}
+.banner-inner{
+	padding: 10px 0px 35px;
+}
+.banner-inner h1 {
+    width: 100%;
+    font-size: 32px;
+    line-height: 1.3em;
+    margin: 0px 0px 10px 0px;
+}
+.banner-inner p {
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    font-size: 15px;
+}
+.banner-inner .btn-info {
+    font-size: 13px;
+    margin: 5px 0px 0px 0px;
+}
+.banner-inner .link{
+    margin: 10px 0px 0px;
+    font-size: 12px;
+}
+/*************************************
+ 		** Alert code**
+ **************************************/
+.alert {
+    padding: 20px 0px;
+}
+.alert p {
+    font-size: 14px;
+}
+/*************************************
+ 		** Expert code**
+ **************************************/
+.expert {
+   padding: 35px 0px;
+}
+.expert .expert-inner {
+    padding: 0px 0px 35px;
+}
+.expert .expert-inner h2 {
+    font-size: 26px;
+    margin: 0px 0px 10px 0px;
+}
+.expert .expert-inner p {
+    width: 100%;
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+}
+.expert .expert-inner .btn-info {
+    padding: 10px 15px;
+    margin: 10px 0px 0px 0px;
+    font-size: 13px;
+}
+.expert .img-fluid {
+	margin: 0px;
+	width: 100%;
+}
+.expert .expert-right {
+    margin: 0px 0px 0px 0px;
+}
+.expert .expert-right h2 {
+    font-size: 26px;
+    margin: 10px 0px 10px 0px;
+}
+.expert .expert-right p {
+    width: 100%;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+/*************************************
+ 		** Service code**
+ **************************************/
+.service{
+	padding: 35px 0px;
+}
+.service .title {
+    padding: 0px 0px 35px;
+}
+.service .title h1 {
+    font-size: 28px;
+}
+.service .title p {
+    width: 100%;
+    font-size: 16px;
+    margin: 0px auto;
+}
+.service .service-box h4 {
+    font-size: 18px;
+    margin: 0px 0px 10px;
+}
+.service .service-box .img-fluid {
+    margin: 10px 0px 10px;
+}
+.service .service-box p {
+    width: 100%;
+    font-size: 14px;
+    margin: 0px 0px 10px;
+}
+.service .service-box .btn-link {
+    font-size: 15px;
+    margin: 0px 0px 10px 0px;
+}
+/*************************************
+        ** Reason code**
+ **************************************/
+.reason {
+    padding: 35px 0px;
+    margin: 0px 0px;
+}
+.reason-inner {
+    padding: 20px 0px 20px;
+}
+.reason-inner h2 {
+    width: 100%;
+    font-size: 28px;
+}
+.reason .reason-inner p {
+    width: 100%;
+    font-size: 14px;
+    margin: 0px 0px 0px;
+}
+.reason p {
+    font-size: 14px;
+    margin: 0px 0px 5px;
+}
+/*************************************
+        ** Video code**
+ **************************************/
+.video {
+    padding: 35px 0px;
+}
+.video-inner {
+    padding: 15px 0px;
+}
+.video-inner .play-btn{
+    margin: 0px 0px 10px;
+}
+.video-inner h1 {
+    font-size: 28px;
+    margin: 0px 0px 10px;
+}
+.video-inner p {
+    width: 100%;
+    font-size: 14px;
+}
+/*************************************
+        ** testimonial code**
+ **************************************/
+.testimonial {
+    padding: 35px 0px;
+}
+.testimonial .title {
+    padding: 0px 0px 20px;
+}
+.testimonial .title h1 {
+    font-size: 28px;
+    margin: 0px 0px 5px;
+}
+.testimonial .title p {
+    width: 100%;
+    font-size: 14px;
+    margin: 5px auto 0px;
+}
+.client-box {
+    padding: 20px;
+    margin: 10px 0px;
+}
+.client-box .img-client {
+    margin: 0px 0px 10px;
+}
+.client-box p {
+    padding: 0px 10px 0px 0px;
+    margin: 5px 0px 0px;
+    font-size: 14px;
+}
+.client-box p .name {
+    font-size: 14px;
+}
+.client-box p .info {
+    font-size: 14px;
+}
+/*************************************
+        ** quote code**
+ **************************************/
+.quote {
+    padding: 35px 0px;
+}
+.quote-inner {
+    padding: 20px 0px;
+}
+.quote-inner h1 {
+    font-size: 28px;
+    margin: 0px 0px;
+    text-align: center;
+}
+.quote .txt-center{
+    text-align: center;
+}
+.quote-inner .btn-info {
+    padding: 8px 13px;
+    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+ }
+/*************************************
+        ** footer code**
+ **************************************/
+.footer {
+    padding: 35px 0px;
+}
+.footer-inner {
+    display: block;
+    padding: 20px;
+    margin: 0px 10px 0px;
+}
+.footer p {
+    width: 100%;
+    font-size: 14px;
+    margin: 20px 0px;
+}
+.footer h6 {
+    font-size: 14px;
+    margin: 20px 0px 15px 30px;
+}
+.footer .list li {
+    margin: 5px 0px 0px 0px;
+}
+.footer .list li a {
+    font-size: 14px;
+}
+  /* CSS ends */
+  
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS starts */
+
+.header .navbar-toggler{
+	border: 1px solid #473BF0;
+	border-radius: 3px;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 2px #473BF0;
+    background: #473BF0;
+}
+.header .navbar-toggler:focus .fa{
+	color: #fff;
+}
+.header .navbar-toggler .fa {
+    color: #473BF0;
+    font-size: 30px;
+    font-weight: 300;
+}
+/*************************************
+ 		** Header menu code**
+ **************************************/
+  
+.header .navbar .navbar-nav .nav-item .nav-link {
+	margin: 0px
+}
+.header .navbar-nav .nav-item .btn-info{
+	margin: 10px 0px 0px;
+}
+/*************************************
+ 		** Banner code**
+ **************************************/
+.banner{
+	padding: 40px 0px 0px;
+}
+.banner-inner{
+	padding: 10px 0px 40px;
+}
+.banner-inner h1 {
+    width: 100%;
+    font-size: 44px;
+    line-height: 1.3em;
+    margin: 0px 0px 15px 0px;
+}
+.banner-inner p {
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+    font-size: 18px;
+}
+.banner-inner .btn-info {
+    font-size: 13px;
+    margin: 10px 0px 0px;
+}
+.banner-inner .link{
+    margin: 15px 0px 0px;
+    font-size: 13px;
+}
+/*************************************
+ 		** Expert code**
+ **************************************/
+.expert {
+   padding: 40px 0px;
+   margin: 0px 0px 0px 15px;
+}
+.expert .expert-inner {
+    padding: 0px 0px 40px;
+}
+.expert .expert-inner h2 {
+    font-size: 30px;
+    margin: 0px 0px 15px 0px;
+}
+.expert .expert-inner p {
+    width: 100%;
+    font-size: 18px;
+    margin: 0px 0px 15px 0px;
+}
+.expert .expert-inner .btn-info {
+    padding: 10px 15px;
+    margin: 10px 0px 0px 0px;
+    font-size: 13px;
+}
+.expert .img-fluid {
+	margin: 0px;
+	width: 100%;
+}
+.expert .expert-right {
+    margin: 0px 0px 0px 0px;
+}
+.expert .expert-right h2 {
+    font-size: 30px;
+    margin: 15px 0px 15px 0px;
+}
+.expert .expert-right p {
+    width: 100%;
+    font-size: 18px;
+    margin: 15px 0px;
+}
+/*************************************
+ 		** Service code**
+ **************************************/
+.service{
+	padding: 40px 0px;
+}
+.service .title {
+    padding: 0px 0px 40px;
+}
+.service .title h1 {
+    font-size: 32px;
+}
+.service .title p {
+    width: 100%;
+    font-size: 16px;
+    margin: 0px auto;
+}
+.service .service-box h4 {
+    font-size: 20px;
+    margin: 0px 0px 15px;
+}
+.service .service-box .img-fluid {
+    margin: 15px 0px 15px;
+}
+.service .service-box p {
+    width: 100%;
+    font-size: 16px;
+    margin: 0px 0px 15px;
+}
+.service .service-box .btn-link {
+    font-size: 15px;
+    margin: 0px 0px 15px 0px;
+}
+/*************************************
+        ** Reason code**
+ **************************************/
+.reason {
+    padding: 40px 0px;
+    margin: 0px 0px;
+}
+.reason-inner {
+    padding: 20px 0px 20px;
+}
+.reason-inner h2 {
+    width: 100%;
+    font-size: 32px;
+    margin: 0px 0px 15px;
+}
+.reason .reason-inner p {
+    width: 100%;
+    font-size: 16px;
+    margin: 10px 0px 0px;
+}
+.reason p {
+    font-size: 16px;
+    margin: 0px 0px 10px;
+}
+/*************************************
+        ** Video code**
+ **************************************/
+.video {
+    padding: 40px 0px;
+}
+.video-inner {
+    padding: 25px 0px;
+}
+.video-inner .play-btn{
+    margin: 0px 0px 15px;
+}
+.video-inner h1 {
+    font-size: 32px;
+    margin: 0px 0px 15px;
+}
+.video-inner p {
+    width: 100%;
+    font-size: 16px;
+}
+/*************************************
+        ** testimonial code**
+ **************************************/
+.testimonial {
+    padding: 40px 0px;
+}
+.testimonial .title {
+    padding: 0px 0px 20px;
+}
+.testimonial .title h1 {
+    font-size: 32px;
+    margin: 0px 0px 15px;
+}
+.testimonial .title p {
+    width: 100%;
+    font-size: 16px;
+    margin: 10px auto 0px;
+}
+.client-box {
+    padding: 20px;
+    margin: 10px 0px;
+}
+.client-box .img-client {
+    margin: 0px 0px 10px;
+}
+.client-box p {
+    padding: 0px 10px 0px 0px;
+    margin: 10px 0px 0px;
+    font-size: 16px;
+}
+.client-box p .name {
+    font-size: 16px;
+}
+.client-box p .info {
+    font-size: 16px;
+}
+/*************************************
+        ** quote code**
+ **************************************/
+.quote {
+    padding: 40px 0px;
+}
+.quote-inner {
+    padding: 20px 0px;
+}
+.quote-inner h1 {
+    font-size: 30px;
+    margin: 0px 0px;
+    text-align: center;
+}
+.quote .txt-center{
+    text-align: center;
+}
+.quote-inner .btn-info {
+    padding: 8px 13px;
+    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+ }
+/*************************************
+        ** footer code**
+ **************************************/
+.footer {
+    padding: 40px 0px;
+}
+.footer-inner {
+    display: block;
+    padding: 20px;
+    margin: 0px 15px 0px;
+}
+.footer p {
+    width: 100%;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+.footer h6 {
+    font-size: 16px;
+    margin: 20px 0px 15px 30px;
+}
+.footer .list li {
+    margin: 10px 0px 0px 0px;
+}
+.footer .list li a {
+    font-size: 16px;
+}
+  /* CSS ends */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+   /* CSS starts */
+
+.header .navbar-toggler{
+	border: 1px solid #473BF0;
+	border-radius: 3px;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 2px #473BF0;
+    background: #473BF0;
+}
+.header .navbar-toggler:focus .fa{
+	color: #fff;
+}
+.header .navbar-toggler .fa {
+    color: #473BF0;
+    font-size: 30px;
+    font-weight: 300;
+}
+/*************************************
+ 		** Header menu code**
+ **************************************/
+  
+.header .navbar .navbar-nav .nav-item .nav-link {
+	margin: 0px
+}
+.header .navbar-nav .nav-item .btn-info{
+	margin: 10px 0px 0px;
+}
+/*************************************
+ 		** Banner code**
+ **************************************/
+.banner{
+	padding: 40px 0px 0px;
+}
+.banner-inner{
+	padding: 10px 0px 40px;
+}
+.banner-inner h1 {
+    width: 100%;
+    font-size: 46px;
+    line-height: 1.3em;
+    margin: 0px 0px 15px 0px;
+}
+.banner-inner p {
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+    font-size: 20px;
+}
+.banner-inner .btn-info {
+    font-size: 16px;
+    margin: 10px 0px 0px;
+}
+.banner-inner .link{
+    margin: 15px 0px 0px;
+    font-size: 13px;
+}
+.banner .ipad-txt-center{
+	text-align: center;
+}
+/*************************************
+ 		** Expert code**
+ **************************************/
+.expert {
+   padding: 40px 0px;
+   margin: 0px 0px 0px 15px;
+}
+.expert .expert-inner {
+    padding: 0px 0px 40px;
+}
+.expert .expert-inner h2 {
+    font-size: 42px;
+    margin: 0px 0px 15px 0px;
+}
+.expert .expert-inner p {
+    width: 100%;
+    font-size: 20px;
+    margin: 0px 0px 15px 0px;
+}
+.expert .expert-inner .btn-info {
+    padding: 10px 15px;
+    margin: 10px 0px 0px 0px;
+    font-size: 13px;
+}
+.expert .img-fluid {
+	margin: 0px;
+	width: 100%;
+}
+.expert .expert-right {
+    margin: 0px 0px 0px 0px;
+}
+.expert .expert-right h2 {
+    font-size: 42px;
+    margin: 15px 0px 15px 0px;
+}
+.expert .expert-right p {
+    width: 100%;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+/*************************************
+ 		** Service code**
+ **************************************/
+.service{
+	padding: 40px 0px;
+}
+.service .title {
+    padding: 0px 0px 40px;
+}
+.service .title h1 {
+    font-size: 36px;
+}
+.service .title p {
+    width: 100%;
+    font-size: 20px;
+    margin: 0px auto;
+}
+.service .service-box h4 {
+    font-size: 24px;
+    margin: 0px 0px 15px;
+}
+.service .service-box .img-fluid {
+    margin: 15px 0px 15px;
+}
+.service .service-box p {
+    width: 100%;
+    font-size: 20px;
+    margin: 0px 0px 15px;
+}
+.service .service-box .btn-link {
+    font-size: 15px;
+    margin: 0px 0px 15px 0px;
+}
+/*************************************
+        ** Reason code**
+ **************************************/
+.reason {
+    padding: 40px 0px;
+    margin: 0px 0px;
+}
+.reason-inner {
+    padding: 20px 0px 20px;
+}
+.reason-inner h2 {
+    width: 100%;
+    font-size: 36px;
+    margin: 0px 0px 15px;
+}
+.reason .reason-inner p {
+    width: 100%;
+    font-size: 20px;
+    margin: 15px 0px 0px;
+}
+.reason p {
+    font-size: 20px;
+    margin: 0px 0px 15px;
+}
+
+/*************************************
+        ** Video code**
+ **************************************/
+.video {
+    padding: 40px 0px;
+}
+.video-inner {
+    padding: 25px 0px;
+}
+.video-inner .play-btn{
+    margin: 0px 0px 20px;
+}
+.video-inner h1 {
+    font-size: 36px;
+    margin: 0px 0px 20px;
+}
+.video-inner p {
+    width: 100%;
+    font-size: 20px;
+}
+/*************************************
+        ** testimonial code**
+ **************************************/
+.testimonial {
+    padding: 40px 0px;
+}
+.testimonial .title {
+    padding: 0px 0px 20px;
+}
+.testimonial .title h1 {
+    font-size: 36px;
+    margin: 0px 0px 20px;
+}
+.testimonial .title p {
+    width: 100%;
+    font-size: 20px;
+    margin: 10px auto 0px;
+}
+.client-box {
+    padding: 20px;
+    margin: 15px 0px;
+}
+.client-box .img-client {
+    margin: 0px 0px 15px;
+}
+.client-box p {
+    padding: 0px 10px 0px 0px;
+    margin: 15px 0px 0px;
+    font-size: 20px;
+}
+.client-box p .name {
+    font-size: 20px;
+}
+.client-box p .info {
+    font-size: 20px;
+}
+/*************************************
+        ** quote code**
+ **************************************/
+.quote {
+    padding: 40px 0px;
+}
+.quote-inner {
+    padding: 20px 0px;
+}
+.quote-inner h1 {
+    font-size: 32px;
+    margin: 0px 0px;
+    text-align: center;
+}
+.quote .txt-center{
+    text-align: center;
+}
+.quote-inner .btn-info {
+    padding: 10px 15px;
+    margin: 0px 0px 0px 0px;
+    font-size: 17px;
+ }
+ /*************************************
+        ** footer code**
+ **************************************/
+.footer {
+    padding: 40px 0px;
+}
+.footer-inner {
+    display: block;
+    padding: 20px;
+    margin: 0px 20px 0px;
+}
+.footer p {
+    width: 100%;
+    font-size: 20px;
+    margin: 25px 0px;
+}
+.footer .col-md-3 {
+    flex: 0 0 0;
+}
+.footer h6 {
+    font-size: 20px;
+    margin: 25px 0px 15px 35px;
+}
+.footer .list li {
+    margin: 15px 0px 0px 0px;
+}
+.footer .list li a {
+    font-size: 20px;
+}
+  /* CSS ends */
+}
